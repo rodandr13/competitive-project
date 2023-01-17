@@ -2,4 +2,6 @@
 
 @import "../vendor/fonts/inner-fonts.css";
 
+@import "../blocks/root/root.css";
+
 @import "../blocks/page/page.css";
