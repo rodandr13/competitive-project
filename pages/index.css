@@ -11,6 +11,10 @@
 @import url('../blocks/section-title/section-title.css');
 
 
+/*  section-subtitle  */
+@import url('../blocks/section-subtitle/section-subtitle.css');
+
+
 /*  footer  */
 @import url('../blocks/footer/footer.css');
 @import url('../blocks/footer/__content/footer__content.css');
