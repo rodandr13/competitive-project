@@ -15,3 +15,28 @@
     grid-template-columns: 1fr 1fr;
   }
 }
+
+@media screen and (max-width: 1000px) {
+  .training {
+    grid-template-columns: 1fr;
+    row-gap: 40px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .training {
+    padding: 40px 18px 60px;
+  }
+
+  .training::before {
+    content: '';
+    height: 1px;
+    width: 100%;
+    padding: 0 16px;
+    display: block;
+
+    background-color: #707070;
+
+    box-sizing: border-box;
+  }
+}

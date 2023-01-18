@@ -8,3 +8,16 @@
 }
 
 
+@media screen and (max-width: 1000px) {
+  .training__image {
+    grid-column: 1 / -1;
+    grid-row: 2 / 3;
+    justify-self: start;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .training__image {
+    grid-row: 3 / 4;
+  }
+}
