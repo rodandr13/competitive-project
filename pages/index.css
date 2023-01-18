@@ -7,6 +7,10 @@
 @import "../blocks/page/page.css";
 
 
+/*  section-title  */
+@import url('../blocks/section-title/section-title.css');
+
+
 /*  footer  */
 @import url('../blocks/footer/footer.css');
 @import url('../blocks/footer/__content/footer__content.css');
