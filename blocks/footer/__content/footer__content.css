@@ -1,0 +1,7 @@
+.footer__content {
+  max-width: 1440px;
+  padding-top: 80px;
+  padding-bottom: 60px;
+
+  box-sizing: border-box;
+}

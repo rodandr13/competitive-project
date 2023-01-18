@@ -5,3 +5,14 @@
 @import "../blocks/root/root.css";
 
 @import "../blocks/page/page.css";
+
+
+/*  footer  */
+@import url('../blocks/footer/footer.css');
+@import url('../blocks/footer/__content/footer__content.css');
+@import url('../blocks/footer/__title/footer__title.css');
+@import url('../blocks/footer/__copyright/footer__copyright.css');
+
+
+/*  mail-form  */
+@import url('../blocks/mail-form/__email/mail-form__email.css');
