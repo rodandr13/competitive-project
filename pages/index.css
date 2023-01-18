@@ -15,6 +15,15 @@
 @import url('../blocks/section-subtitle/section-subtitle.css');
 
 
+/*  training  */
+@import url('../blocks/training/training.css');
+@import url('../blocks/training/__title/training__title.css');
+@import url('../blocks/training/__subtitle/training__subtitle.css');
+@import url('../blocks/training/__links-list/training__links-list.css');
+@import url('../blocks/training/__link/training__link.css');
+@import url('../blocks/training/__image/training__image.css');
+
+
 /*  footer  */
 @import url('../blocks/footer/footer.css');
 @import url('../blocks/footer/__content/footer__content.css');

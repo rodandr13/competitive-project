@@ -1,0 +1,11 @@
+.training {
+  width: 100%;
+  max-width: 1440px;
+  padding: 150px 120px 120px;
+  box-sizing: border-box;
+
+  display: grid;
+  grid-template-columns: 460px 1fr;
+  grid-template-rows: auto 1fr auto;
+  column-gap: 20px;
+}
