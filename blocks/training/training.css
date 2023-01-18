@@ -25,6 +25,7 @@
 
 @media screen and (max-width: 768px) {
   .training {
+    max-width: 512px;
     padding: 40px 18px 60px;
   }
 
