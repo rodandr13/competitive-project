@@ -1,0 +1,7 @@
+.quote {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1440px;
+  display: flex;
+  padding: 120px 120px 60px 120px;
+}
