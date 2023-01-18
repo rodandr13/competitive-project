@@ -55,8 +55,8 @@
 }
 
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 400px) {
   .mail-form__email {
-    width: 284px;
+    width: 100%;
   }
 }
