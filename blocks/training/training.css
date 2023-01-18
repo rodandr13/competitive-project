@@ -7,5 +7,11 @@
   display: grid;
   grid-template-columns: 460px 1fr;
   grid-template-rows: auto 1fr auto;
-  column-gap: 20px;
+  column-gap: 40px;
+}
+
+@media screen and (max-width: 1195px) {
+  .training {
+    grid-template-columns: 1fr 1fr;
+  }
 }
