@@ -6,6 +6,11 @@
 
 @import "../blocks/page/page.css";
 
+/*  menu  */
+@import "../blocks/menu/menu.css";
+@import "../blocks/menu/__list/menu__list.css";
+@import "../blocks/menu/__item/menu__item.css";
+@import "../blocks/menu/__link/menu__link.css";
 
 /*  section-title  */
 @import url('../blocks/section-title/section-title.css');
