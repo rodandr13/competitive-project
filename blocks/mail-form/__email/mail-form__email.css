@@ -53,3 +53,10 @@
 .mail-form__email:focus:-ms-input-placeholder {
   color: transparent;
 }
+
+
+@media screen and (max-width: 430px) {
+  .mail-form__email {
+    width: 284px;
+  }
+}

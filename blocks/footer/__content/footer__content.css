@@ -5,3 +5,11 @@
 
   box-sizing: border-box;
 }
+
+
+@media screen and (max-width: 768px) {
+  .footer__content {
+    padding: 60px 18px 25px;
+  }
+
+}
