@@ -1,0 +1,30 @@
+.header__wrapper-link {
+  position: relative;
+  width: 180px;
+  margin: 50px 0 0 0;
+  text-align: center;
+  background: #24B47E;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.header__wrapper-link::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 200%;
+  height: 100%;
+  background: linear-gradient(to right, rgba(49,158,117,1) 0%,rgba(49,158,117,1) 50%,rgba(36,180,126,1) 50%,rgba(36,180,126,1) 100%);
+  transition: left .7s;
+}
+
+.header__wrapper-link:hover::before{
+  left: 0;
+}
+
+@media screen and (max-width: 760px) {
+  .header__wrapper-link {
+    margin: 40px 0 0 0;
+  }
+}
