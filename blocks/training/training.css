@@ -18,6 +18,7 @@
 
 @media screen and (max-width: 1000px) {
   .training {
+    padding-top: 100px;
     grid-template-columns: 1fr;
     row-gap: 40px;
   }
