@@ -13,11 +13,19 @@
   .header {
     padding: 0 0 0 60px;
     background-size: 300px;
+    min-height: 770px;
   }
 }
+
+@media screen and (max-width: 900px) {
+  .header {
+    min-height: 520px;
+  }
+}
+
 @media screen and (max-width: 760px) {
   .header {
     min-height: auto;
-    padding: 0 18px 0 18px;
+    padding: 0 18px 80px 18px;
   }
 }
