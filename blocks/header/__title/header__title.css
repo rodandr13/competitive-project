@@ -25,5 +25,6 @@
 @media screen and (max-width: 760px) {
   .header__title {
     max-width: 100%;
+    margin: 40px 0 40px 0;
   }
 }
