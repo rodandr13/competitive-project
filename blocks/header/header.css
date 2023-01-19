@@ -7,7 +7,17 @@
   max-width: 1440px;
   min-height: 856px;
   padding: 0 0 0 120px;
-  background: url('../../images/header/Placeholder.jpg') no-repeat;
-  background-size: 610px;
-  background-position: right 20px;
+}
+
+@media screen and (max-width: 1200px) {
+  .header {
+    padding: 0 0 0 60px;
+    background-size: 300px;
+  }
+}
+@media screen and (max-width: 760px) {
+  .header {
+    min-height: auto;
+    padding: 0 18px 0 18px;
+  }
 }

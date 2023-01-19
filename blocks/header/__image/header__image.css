@@ -1,7 +1,12 @@
 .header__image {
   width: 340px;
-  height: 260px;
   display: block;
   margin: 0;
   padding: 0;
+}
+
+@media screen and (max-width: 1200px) {
+  .header__image {
+    width: 100%;
+  }
 }

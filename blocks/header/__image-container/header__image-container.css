@@ -7,3 +7,15 @@
   background: #f4f4f4;
   border-radius: 20px;
 }
+
+@media screen and (max-width: 1200px) {
+  .header__image-container {
+    max-width: 340px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header__image-container {
+    max-width: 234px;
+  }
+}
