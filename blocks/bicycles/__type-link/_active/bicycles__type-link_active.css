@@ -1,0 +1,9 @@
+.bicycles__type-link_active:link,
+.bicycles__type-link_active:visited {
+  color: white;
+  opacity: 1;
+}
+
+.bicycles__type-link_active:hover {
+  opacity: .65;
+}

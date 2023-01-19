@@ -1,0 +1,10 @@
+@media screen and (max-width: 900px) {
+  .bicycles__cards-item {
+    border-radius: 20px;
+    background: #F4F4F4;
+  }
+
+  .bicycles__cards-item:not(:first-child) {
+    display: none;
+  }
+}

@@ -1,0 +1,30 @@
+.bicycles__header {
+  margin-bottom: 140px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+
+@media screen and (max-width: 1200px) {
+  .bicycles__header {
+    margin-bottom: 100px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .bicycles__header {
+    margin-bottom: 40px;
+
+    flex-direction: column;
+    gap: 30px;
+    align-items: flex-start;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .bicycles__header {
+    margin-bottom: 20px;
+    padding-top: 40px;
+  }
+}

@@ -1,0 +1,22 @@
+.bicycles__type-list {
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  gap: 40px;
+
+  list-style-type: none;
+}
+
+
+@media screen and (max-width: 760px) {
+  .bicycles__type-list {
+    align-self: center;
+  }
+}
+
+@media screen and (max-width: 495px) {
+  .bicycles__type-list {
+    display: none;
+  }
+}

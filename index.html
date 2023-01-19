@@ -29,7 +29,37 @@
   <main class="content">
     <section class="quote"></section>
     <section class="track"></section>
-    <section class="bicycles"></section>
+
+    <section class="bicycles" aria-label="Велосипеды">
+      <header class="bicycles__header">
+        <h2 class="bicycles__title section-title">Велосипеды</h2>
+        <ul class="bicycles__type-list">
+          <li><a href="#" class="bicycles__type-link bicycles__type-link_active">Шоссе</a></li>
+          <li><a href="#" class="bicycles__type-link">Грэвел</a></li>
+          <li><a href="#" class="bicycles__type-link">ТТ</a></li>
+        </ul>
+        <select class="bicycles__types-select" name="bicycle-types" id="bicucle-types">
+          <option value="shosse">Шоссе</option>
+          <option value="gravel">Грэвел</option>
+          <option value="tt">ТТ</option>
+        </select>
+      </header>
+      <ul class="bicycles__cards-list">
+        <li class="bicycles__cards-item">
+          <a href="#" class="bicycles__link"><img src="./images/bicycles/bicycle1.png" alt="Фотогорафия велосипеда серого цвета" class="bicycle__image"></a>
+          <p class="bicycles__name">Cervelo Caledonia-5</p>
+        </li>
+        <li class="bicycles__cards-item">
+          <a href="#" class="bicycles__link"><img src="./images/bicycles/bicycle2.png" alt="Фотогорафия велосипеда темно-синего и розового цветов" class="bicycle__image"></a>
+          <p class="bicycles__name">Cannondale Systemsix Himod</p>
+        </li>
+        <li class="bicycles__cards-item">
+          <a href="#" class="bicycles__link"><img src="./images/bicycles/bicycle3.png" alt="Фотография велосипеда сине-зелёного цвета" class="bicycle__image"></a>
+          <p class="bicycles__name">Trek Domane SL-7</p>
+        </li>
+      </ul>
+      <div class="bicycles__dots"></div>
+    </section>
 
     <section class="training">
       <h2 class="training__title section-title">Тренировки</h2>

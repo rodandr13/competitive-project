@@ -1,0 +1,25 @@
+.bicycles {
+  width: 100%;
+  max-width: 1440px;
+  padding: 60px 120px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 760px) {
+  .bicycles {
+    max-width: 512px;
+    padding: 40px 18px 60px;
+  }
+
+  .bicycles::before {
+    content: '';
+    height: 1px;
+    width: 100%;
+    padding: 0 16px;
+    display: block;
+
+    background-color: #707070;
+
+    box-sizing: border-box;
+  }
+}

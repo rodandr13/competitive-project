@@ -1,0 +1,16 @@
+.bicycles__dots {
+  margin: 0 auto;
+  width: 22px;
+  height: 4px;
+
+  display: none;
+
+  background: url('../../../images/bicycles/Ellipse\ 8.svg');
+}
+
+
+@media screen and (max-width: 900px) {
+  .bicycles__dots {
+    display: block;
+  }
+}

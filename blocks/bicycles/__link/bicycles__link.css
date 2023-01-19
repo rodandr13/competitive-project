@@ -1,0 +1,16 @@
+.bicycles__link {
+  display: block;
+  padding: 20px;
+  border-radius: 20px;
+
+  box-sizing: border-box;
+
+  background: #F4F4F4;
+}
+
+
+@media screen and (max-width: 760px) {
+  .bicycles__link {
+    padding: 15px;
+  }
+}

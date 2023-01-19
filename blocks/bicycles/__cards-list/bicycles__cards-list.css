@@ -1,0 +1,19 @@
+.bicycles__cards-list {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  gap: 30px;
+
+  list-style-type: none;
+}
+
+
+@media screen and (max-width: 900px) {
+  .bicycles__cards-list {
+    margin-bottom: 20px;
+    flex-direction: column;
+    align-items: center;
+  }
+}

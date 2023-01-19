@@ -1,0 +1,25 @@
+.bicycles__name {
+  margin: 22px 0 0;
+  padding-left: 5px;
+
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.22;
+}
+
+@media screen and (max-width: 900px) {
+  .bicycles__name {
+    margin: 3px 0 16px;
+    padding: 0;
+
+    color: #151515;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .bicycles__name {
+    font-size: 14px;
+    line-height: 1.29;
+  }
+}

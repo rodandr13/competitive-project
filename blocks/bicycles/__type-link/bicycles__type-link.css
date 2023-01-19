@@ -1,0 +1,18 @@
+.bicycles__type-link {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.56;
+  text-decoration: none;
+
+  transition: opacity .2s ease;
+}
+
+.bicycles__type-link:link,
+.bicycles__type-link:visited {
+  color: #E5E5E5;
+  opacity: .7;
+}
+
+.bicycles__type-link:hover {
+  opacity: .5;
+}

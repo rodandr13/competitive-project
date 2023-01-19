@@ -34,6 +34,22 @@
 @import url('../blocks/content/content.css');
 
 
+/*  bicycles  */
+@import url('../blocks/bicycles/bicycles.css');
+@import url('../blocks/bicycles/__header/bicycles__header.css');
+@import url('../blocks/bicycles/__title/bicycles__title.css');
+@import url('../blocks/bicycles/__type-list/bicycles__type-list.css');
+@import url('../blocks/bicycles/__type-link/bicycles__type-link.css');
+@import url('../blocks/bicycles/__types-select/bicycles__types-select.css');
+@import url('../blocks/bicycles/__type-link/_active/bicycles__type-link_active.css');
+@import url('../blocks/bicycles/__link/bicycles__link.css');
+@import url('../blocks/bicycles/__cards-list/bicycles__cards-list.css');
+@import url('../blocks/bicycles/__cards-item/bicycles__cards-item.css');
+@import url('../blocks/bicycles/__image/bicycle__image.css');
+@import url('../blocks/bicycles/__name/bicycles__name.css');
+@import url('../blocks/bicycles/__dots/bicycles__dots.css');
+
+
 /*  training  */
 @import url('../blocks/training/training.css');
 @import url('../blocks/training/__title/training__title.css');
