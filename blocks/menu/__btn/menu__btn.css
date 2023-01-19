@@ -1,0 +1,17 @@
+.menu__btn {
+  display: none;
+  align-items: center;
+  position: absolute;
+  top: 26px;
+  right: 20px;
+  width: 22px;
+  height: 26px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+@media screen and (max-width: 760px) {
+  .menu__btn {
+    display: flex;
+  }
+}
