@@ -1,0 +1,5 @@
+.track__subtitle {
+  margin: 0 0 30px;
+
+  grid-area: subtitle;
+}

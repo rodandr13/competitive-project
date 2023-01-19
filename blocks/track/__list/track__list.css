@@ -1,0 +1,14 @@
+.track__list {
+  margin: 0;
+  padding: 0;
+
+  display: grid;
+  grid-template-columns: 49.24% 47.72%;
+  gap: 40px;
+
+  grid-area: item;
+
+  list-style-type: none;
+
+  overflow: hidden;
+}

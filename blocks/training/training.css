@@ -29,16 +29,4 @@
     max-width: 512px;
     padding: 40px 18px 60px;
   }
-
-  .training::before {
-    content: '';
-    height: 1px;
-    width: 100%;
-    padding: 0 16px;
-    display: block;
-
-    background-color: #707070;
-
-    box-sizing: border-box;
-  }
 }

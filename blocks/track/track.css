@@ -1,0 +1,6 @@
+.track {
+  width: 100%;
+  max-width: 1440px;
+  padding: 60px 0 60px 120px;
+  box-sizing: border-box;
+}

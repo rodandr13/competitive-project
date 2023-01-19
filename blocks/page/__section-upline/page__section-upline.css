@@ -1,0 +1,13 @@
+@media screen and (max-width: 760px) {
+  .page__section-upline::before {
+    content: '';
+    height: 1px;
+    width: 100%;
+    padding: 0 16px;
+    display: block;
+
+    background-color: #707070;
+
+    box-sizing: border-box;
+  }
+}
