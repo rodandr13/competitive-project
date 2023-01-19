@@ -6,7 +6,7 @@
 
 @import "../blocks/page/page.css";
 @import "../blocks/page/__section-upline/page__section-upline.css";
-
+@import "../blocks/page/__section-upline/_indent_small/page__section-upline_indent_small.css";
 
 /*  section-title  */
 @import url('../blocks/section-title/section-title.css');
