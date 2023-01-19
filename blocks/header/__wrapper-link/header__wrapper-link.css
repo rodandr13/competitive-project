@@ -16,7 +16,7 @@
   width: 200%;
   height: 100%;
   background: linear-gradient(to right, rgba(49,158,117,1) 0%,rgba(49,158,117,1) 50%,rgba(36,180,126,1) 50%,rgba(36,180,126,1) 100%);
-  transition: left .7s;
+  transition: left 0.5s;
 }
 
 .header__wrapper-link:hover::before{
@@ -26,5 +26,11 @@
 @media screen and (max-width: 760px) {
   .header__wrapper-link {
     margin: 40px 0 0 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header__wrapper-link {
+    width: 100%;
   }
 }
