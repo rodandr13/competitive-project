@@ -15,3 +15,11 @@
 .training__link:hover {
   opacity: .65;
 }
+
+
+@media screen and (max-width: 760px) {
+  .training__link {
+    font-size: 14px;
+    line-height: 1.43;
+  }
+}

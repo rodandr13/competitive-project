@@ -11,6 +11,6 @@
 
 @media screen and (max-width: 760px) {
   .bicycles__link {
-    padding: 15px;
+    padding: 15px 15px 0;
   }
 }

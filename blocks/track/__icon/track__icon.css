@@ -1,5 +1,12 @@
 .track__icon {
+  width: 100px;
   position: absolute;
   left: 0;
   bottom: 16px;
+}
+
+@media screen and (max-width: 424px) {
+  .track__icon {
+    width: 68px;
+  }
 }

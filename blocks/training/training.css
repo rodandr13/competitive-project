@@ -10,6 +10,12 @@
   column-gap: 40px;
 }
 
+@media screen and (max-width: 1300px) {
+  .training {
+    padding: 150px 60px 120px;
+  }
+}
+
 @media screen and (max-width: 1195px) {
   .training {
     grid-template-columns: 1fr 1fr;
@@ -24,9 +30,8 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 760px) {
   .training {
-    max-width: 512px;
     padding: 0 18px 60px;
   }
 }

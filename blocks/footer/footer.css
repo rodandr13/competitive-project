@@ -4,10 +4,3 @@
   background: #2F2F2F;
 }
 
-
-@media screen and (max-width: 768px) {
-  .footer {
-    display: flex;
-    justify-content: center;
-  }
-}

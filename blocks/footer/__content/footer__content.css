@@ -7,10 +7,14 @@
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1300px) {
   .footer__content {
-    width: 100%;
-    max-width: 512px;
+    padding: 80px 60px 60px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .footer__content {
     margin: 0;
     padding: 60px 18px 25px;
   }
