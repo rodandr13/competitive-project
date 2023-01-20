@@ -5,9 +5,20 @@
   box-sizing: border-box;
 }
 
+@media screen and (max-width: 1300px) {
+  .bicycles {
+    padding: 60px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .bicycles {
+    padding: 0 60px 60px;
+  }
+}
+
 @media screen and (max-width: 760px) {
   .bicycles {
-    max-width: 512px;
     padding: 0 18px 80px;
   }
 }
