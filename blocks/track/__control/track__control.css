@@ -34,7 +34,7 @@
 }
 
 
-@media screen and (max-width: 424px) {
+@media screen and (max-width: 425px) {
   .track__control {
     width: 24px;
     height: 24px;
