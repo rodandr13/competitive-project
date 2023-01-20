@@ -6,7 +6,7 @@
 
 * [Ссылка на выполненный проект](https://rodandr13.github.io/competitive-project/)
 
-![Image alt]()
+![Image alt](https://github.com/rodandr13/competitive-project/blob/main/images/image-for-readme.JPG?raw=true)
 
 **Макет**
 
