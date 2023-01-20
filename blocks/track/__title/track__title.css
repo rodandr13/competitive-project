@@ -1,9 +1,15 @@
 .track__title {
-  margin: 0;
+  margin: 0 0 45px;
 
   grid-area: title;
 }
 
+
+@media screen and (max-width: 900px) {
+  .track__title {
+    margin: 0;
+  }
+}
 
 @media screen and (max-width: 760px) {
   .track__title {
