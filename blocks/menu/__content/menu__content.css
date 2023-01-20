@@ -1,0 +1,16 @@
+.menu__content {
+  width: 100%;
+  max-width: 1440px;
+  padding: 0 120px 0 120px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .menu__content {
+    padding: 0 60px 0 60px;
+  }
+}
+
