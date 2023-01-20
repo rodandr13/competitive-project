@@ -8,7 +8,8 @@
   .header__image-container {
     position: relative;
     width: 500px;
-    align-self: flex-end;
+    -ms-flex-item-align: end;
+        align-self: flex-end;
     top: 0;
   }
 }

@@ -1,0 +1,9 @@
+.bicycles__image {
+  max-width: 340px;
+  display: block;
+  width: 100%;
+
+  aspect-ratio: 1 / 1;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}

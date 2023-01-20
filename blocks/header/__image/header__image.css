@@ -1,7 +1,8 @@
 .header__image {
   width: 610px;
   height: 836px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 @media screen and (max-width: 1410px) {

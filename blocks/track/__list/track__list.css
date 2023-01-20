@@ -2,7 +2,10 @@
   margin: 0 0 55px;
   padding: 0;
 
+  display: -ms-grid;
+
   display: grid;
+  -ms-grid-columns: 49.25% 40px 47.72%;
   grid-template-columns: 49.25% 47.72%;
   gap: 40px;
 
@@ -17,6 +20,7 @@
 @media screen and (max-width: 900px) {
   .track__list {
     margin: 0;
+    -ms-grid-columns: 100%;
     grid-template-columns: 100%;
   }
 

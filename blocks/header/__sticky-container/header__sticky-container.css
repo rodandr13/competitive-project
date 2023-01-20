@@ -1,7 +1,8 @@
 .header__sticky-container {
   position: sticky;
   top: 50px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   max-width: 440px;
   padding: 20px 50px;
   background: #f4f4f4;

@@ -15,7 +15,11 @@
   left: -100%;
   width: 200%;
   height: 100%;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(49,158,117,1)),color-stop(50%, rgba(49,158,117,1)),color-stop(50%, rgba(36,180,126,1)),to(rgba(36,180,126,1)));
+  background: -o-linear-gradient(left, rgba(49,158,117,1) 0%,rgba(49,158,117,1) 50%,rgba(36,180,126,1) 50%,rgba(36,180,126,1) 100%);
   background: linear-gradient(to right, rgba(49,158,117,1) 0%,rgba(49,158,117,1) 50%,rgba(36,180,126,1) 50%,rgba(36,180,126,1) 100%);
+  -webkit-transition: left 0.5s;
+  -o-transition: left 0.5s;
   transition: left 0.5s;
 }
 

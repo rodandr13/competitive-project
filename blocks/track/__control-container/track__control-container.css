@@ -1,6 +1,10 @@
 .track__control-container {
   grid-area: controls;
 
+  display: -webkit-box;
+
+  display: -ms-flexbox;
+
   display: flex;
   gap: 20px;
 }
@@ -8,8 +12,11 @@
 
 @media screen and (max-width: 900px) {
   .track__control-container {
-    justify-self: end;
-    align-self: start;
+    -ms-grid-column-align: end;
+        justify-self: end;
+    -ms-flex-item-align: start;
+        -ms-grid-row-align: start;
+        align-self: start;
   }
 }
 
@@ -25,4 +32,3 @@
     gap: 10px;
   }
 }
-

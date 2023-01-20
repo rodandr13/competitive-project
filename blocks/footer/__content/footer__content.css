@@ -3,7 +3,9 @@
   max-width: 1440px;
   padding: 80px 120px 60px;
 
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+
+          box-sizing: border-box;
 }
 
 
