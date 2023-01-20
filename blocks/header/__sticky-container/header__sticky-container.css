@@ -1,0 +1,22 @@
+.header__sticky-container {
+  position: sticky;
+  top: 50px;
+  box-sizing: border-box;
+  max-width: 440px;
+  padding: 20px 50px;
+  background: #f4f4f4;
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+  .header__sticky-container {
+    max-width: 340px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header__sticky-container {
+    max-width: 234px;
+    padding: 10px 26px;
+  }
+}

@@ -1,22 +1,27 @@
 .header__image-container {
-  position: sticky;
-  top: 50px;
-  box-sizing: border-box;
-  max-width: 440px;
-  padding: 20px 50px;
-  background: #f4f4f4;
-  border-radius: 20px;
+  position: absolute;
+  right: 0;
+  top: 20px;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 760px) {
   .header__image-container {
-    max-width: 340px;
+    position: relative;
+    width: 500px;
+    align-self: flex-end;
+    top: 0;
   }
 }
 
 @media screen and (max-width: 600px) {
   .header__image-container {
-    max-width: 234px;
-    padding: 10px 26px;
+    width: 350px;
+    height: 348px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .header__image-container {
+    width: 254px;
   }
 }

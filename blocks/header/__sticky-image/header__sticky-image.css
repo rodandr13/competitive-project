@@ -1,0 +1,12 @@
+.header__sticky-image {
+  width: 340px;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 1200px) {
+  .header__sticky-image {
+    width: 100%;
+  }
+}
