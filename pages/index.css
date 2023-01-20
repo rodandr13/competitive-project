@@ -66,6 +66,7 @@
 @import url('../blocks/track/__control/track__control.css');
 @import url('../blocks/track/__control/_action/track__control_action_left.css');
 @import url('../blocks/track/__control/_action/track__control_action_right.css');
+@import url('../blocks/track/__control-image/track__control-image.css');
 
 
 /*  bicycles  */

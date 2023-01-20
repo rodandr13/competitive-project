@@ -3,3 +3,11 @@
 
   grid-area: title;
 }
+
+
+@media screen and (max-width: 760px) {
+  .track__title {
+    margin-top: 40px;
+  }
+
+}

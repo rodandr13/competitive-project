@@ -3,10 +3,20 @@
   display: grid;
   grid-template-columns: minmax(min-content, 460px) 1fr;
   grid-template-areas:
-    "title  mob-controls"
-    "subtitle   .      "
-    "item      item    "
-    "controls    .      ";
+    "title      .   "
+    "subtitle   .   "
+    "item      item "
+    "controls    .  ";
   row-gap: 50px;
+}
 
+
+@media screen and (max-width: 900px) {
+  .track__container {
+    grid-template-areas:
+      "title   controls"
+      "item      item  "
+      "subtitle subtitle";
+    row-gap: 40px;
+  }
 }

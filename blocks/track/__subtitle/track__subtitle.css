@@ -3,3 +3,10 @@
 
   grid-area: subtitle;
 }
+
+
+@media screen and (max-width: 900px) {
+  .track__subtitle {
+    margin: 0;
+  }
+}

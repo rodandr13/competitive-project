@@ -12,3 +12,11 @@
 
   overflow: hidden;
 }
+
+
+@media screen and (max-width: 900px) {
+  .track__list {
+    grid-template-columns: 100%;
+  }
+
+}

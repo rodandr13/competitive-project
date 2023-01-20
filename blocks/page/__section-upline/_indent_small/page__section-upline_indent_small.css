@@ -1,5 +1,5 @@
 @media screen and (max-width: 760px) {
-  .page__section-upline::before {
+  .page__section-upline_indent_small::before {
     margin: 0 0 20px 0;
   }
 }

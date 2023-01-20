@@ -4,3 +4,17 @@
   display: flex;
   gap: 20px;
 }
+
+
+@media screen and (max-width: 900px) {
+  .track__control-container {
+    justify-self: end;
+    align-self: end;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .track__control-container {
+    gap: 10px;
+  }
+}
