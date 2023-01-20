@@ -1,17 +1,15 @@
 .menu {
   position: relative;
-  box-sizing: border-box;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
   width: 100%;
-  max-width: 1440px;
   min-height: 74px;
-  padding: 0 120px 0 120px;
+  background: #333333;
+  z-index: 10;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 760px) {
   .menu {
-    padding: 0 60px 0 60px;
+    position: fixed;
   }
 }
+
+
