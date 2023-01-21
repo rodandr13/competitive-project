@@ -1,6 +1,7 @@
 .menu__content {
   width: 100%;
   max-width: 1440px;
+  margin: 0 auto;
   padding: 0 120px 0 120px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
