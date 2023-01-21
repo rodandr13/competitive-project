@@ -8,8 +8,15 @@
           box-sizing: border-box;
 
   background: #F4F4F4;
+  box-shadow: -20px 60px 220px rgba(0, 0, 0, 0.44);
 }
 
+
+@media screen and (max-width: 900px) {
+  .bicycles__link {
+    box-shadow: none;
+  }
+}
 
 @media screen and (max-width: 760px) {
   .bicycles__link {
